@@ -1,7 +1,7 @@
 # Secure-Password-Generator
 A cryptographically secure password generator with both CLI and GUI interfaces.
 
-Core Features (MVP)
+# Core Features (MVP)
 CLI program that generates passwords of user-specified length
 Customizable character sets (lowercase, uppercase, digits, symbols)
 Option to avoid ambiguous characters (O, 0, I, l)
@@ -10,7 +10,7 @@ No persistent storage of generated passwords
 Entropy calculation and strength assessment
 Clipboard integration with auto-clear
 
-Advanced Features
+# Advanced Features
 GUI with Tkinter (show/hide password, copy-to-clipboard)
 Password policy templates (bank, enterprise, GitHub, etc.)
 Passphrase generator using diceware wordlist
@@ -27,6 +27,15 @@ Optional: Create Virtual Environment
 bashpython -m venv password_env
 source password_env/bin/activate  # On Windows: password_env\Scripts\activate
 pip install pyperclip
+Installation
+Just install the clipboard dependency:
+bashpip install pyperclip
+python password_generator.py  # Launches GUI
+
+# Installation
+Just install the clipboard dependency:
+bashpip install pyperclip
+python password_generator.py  # Launches GUI
 
 # Usage
 GUI Mode (Default)
